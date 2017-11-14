@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('test') {
       steps {
-        cbtSeleniumTest(operatingSystem: 'windows8', browser: 'firefox', resolution: '800*600')
+        echo 'hello world'
       }
     }
   }
