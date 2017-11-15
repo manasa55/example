@@ -8,7 +8,7 @@ pipeline {
     }
     stage('browser') {
       steps {
-        cbtSeleniumTest(operatingSystem: 'windows 8', browser: 'firefox 55', resolution: '800*600')
+        cbt(credentialsId: 'ue99686fbf0f80db', tunnelName: 'test', localTunnelPath: 'E:\\')
       }
     }
   }
