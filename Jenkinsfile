@@ -8,7 +8,7 @@ pipeline {
     }
     stage('browser') {
       steps {
-        cbt(credentialsId: 'ue99686fbf0f80db', tunnelName: 'test', localTunnelPath: 'E:\\')
+        cbt(credentialsId: 'd02f1fb2-8683-46fb-a90a-67b3b4105845', tunnelName: 'test', localTunnelPath: 'E:\\')
       }
     }
   }
